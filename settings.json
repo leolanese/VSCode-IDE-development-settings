@@ -88,7 +88,14 @@
     "**/bower_components": true
   },
 
-  // this will link the iTerm and the styles that is using
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.shell.osx": "zsh"
+  "terminal.integrated.shell.osx": "zsh",
+
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "line"
 }
