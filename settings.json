@@ -1,6 +1,32 @@
 {
+  // Controls whether the parameter hints menu cycles or closes when reaching the end of the list.
+  "editor.parameterHints.cycle": false,
+
+  // Enables a pop-up that shows parameter documentation and type information as you type.
+  "editor.parameterHints.enabled": true,
+
   // hide scrollbar/minimap
   "editor.minimap.enabled": false,
+
+  // Controls whether the search results will be collapsed or expanded.
+  //  - auto: Files with less than 10 results are expanded. Others are collapsed.
+  //  - alwaysCollapse
+  //  - alwaysExpand
+  "search.collapseResults": "alwaysCollapse",
+
+  // Controls auto save of dirty files. Read more about autosave [here](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save).
+  //  - off: A dirty file is never automatically saved.
+  //  - afterDelay: A dirty file is automatically saved after the configured `files.autoSaveDelay`.
+  //  - onFocusChange: A dirty file is automatically saved when the editor loses focus.
+  //  - onWindowChange: A dirty file is automatically saved when the window loses focus.
+  "files.autoSave": "onWindowChange",
+
+  // Controls whether suggestions should automatically show up while typing.
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
 
   "editor.renderControlCharacters": true,
   // The number of spaces a tab is equal to.
@@ -69,7 +95,6 @@
   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
 
   "gitlens.keymap": "chorded",
-  "gitlens.historyExplorer.enabled": true,
 
   "editor.formatOnSave": true,
   "editor.smoothScrolling": true,
@@ -95,6 +120,12 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
+
+  // Enable/disable autoclosing of HTML tags.
+  "html.autoClosingTags": true,
+
+  "http.proxyAuthorization": null,
+  "http.proxyStrictSSL": false,
 
   "debug.node.autoAttach": "disabled",
 
