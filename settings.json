@@ -1,4 +1,7 @@
 {
+  // hide scrollbar/minimap
+  "editor.minimap.enabled": false,
+
   "editor.renderControlCharacters": true,
   // The number of spaces a tab is equal to.
   "editor.tabSize": 2,
@@ -85,7 +88,12 @@
   "search.exclude": {
     "**/node_modules": true,
     "**/jspm_packages": true,
-    "**/bower_components": true
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
   },
 
   "debug.node.autoAttach": "disabled",
@@ -110,5 +118,11 @@
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "line",
   "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true
+  "gitlens.views.lineHistory.enabled": true,
+
+  // Controls whether suggestions should be accepted on `Enter`, in addition to `Tab`. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+  //  - on
+  //  - smart: Only accept a suggestion with `Enter` when it makes a textual change.
+  //  - off
+  "editor.acceptSuggestionOnEnter": "on"
 }
