@@ -15,7 +15,7 @@
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Adapta Nokto",
+  "workbench.colorTheme": "JetJet-Gray",
   "workbench.tips.enabled": false,
   "workbench.settings.editor": "ui",
 
@@ -88,6 +88,17 @@
     "**/bower_components": true
   },
 
+  "debug.node.autoAttach": "disabled",
+
+  // problems
+  // Controls whether Problems view should automatically reveal files when opening them.
+  "problems.autoReveal": true,
+  // Show Errors & Warnings on files and folder.
+  "problems.decorations.enabled": true,
+
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.shell.osx": "zsh",
 
@@ -97,5 +108,7 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.cursorBlinking": false,
-  "terminal.integrated.cursorStyle": "line"
+  "terminal.integrated.cursorStyle": "line",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true
 }
