@@ -155,5 +155,11 @@
   //  - on
   //  - smart: Only accept a suggestion with `Enter` when it makes a textual change.
   //  - off
-  "editor.acceptSuggestionOnEnter": "on"
+  "editor.acceptSuggestionOnEnter": "on",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  
+  
+  // Improved column selection with Multi Cursor Modifier
+  "editor.multiCursorModifier": "ctrlCmd"
 }
