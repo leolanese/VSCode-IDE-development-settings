@@ -10,6 +10,9 @@
 
   // hide scrollbar/minimap
   "editor.minimap.enabled": false,
+  
+  //  see variable values inline in the debugger
+  "debug.inlineValues": true,
 
   // Controls whether the search results will be collapsed or expanded.
   //  - auto: Files with less than 10 results are expanded. Others are collapsed.
