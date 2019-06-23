@@ -4,11 +4,6 @@
 
   // Enables a pop-up that shows parameter documentation and type information as you type.
   "editor.parameterHints.enabled": true,
-  
-  // search exclude (search without unit-test)
-  "search.exclude": {
-      "**/*.specs.ts": true
-  },
 
   // hide scrollbar/minimap
   "editor.minimap.enabled": false,
@@ -123,7 +118,8 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true
+    "**/.DS_Store": true,
+    "**/*.specs.ts": true
   },
 
   // Enable/disable autoclosing of HTML tags.
