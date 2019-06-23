@@ -4,6 +4,11 @@
 
   // Enables a pop-up that shows parameter documentation and type information as you type.
   "editor.parameterHints.enabled": true,
+  
+  // search exclude (search without unit-test)
+  "search.exclude": {
+      "**/*.specs.ts": true
+  },
 
   // hide scrollbar/minimap
   "editor.minimap.enabled": false,
