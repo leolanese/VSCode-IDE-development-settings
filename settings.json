@@ -4,6 +4,9 @@
 
   // Enables a pop-up that shows parameter documentation and type information as you type.
   "editor.parameterHints.enabled": true,
+  
+  // Inline view: Toggle inline view by clicking the More (...) button in the top right and selecting Switch to Inline View.
+  "search.collapseResults": "alwaysCollapse",
 
   // hide scrollbar/minimap
   "editor.minimap.enabled": false,
