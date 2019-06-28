@@ -109,7 +109,7 @@
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorStyle": "block-outline",
-  "editor.mouseWheelZoom": true,
+  "editor.mouseWheelZoom": false,
 
   "git.showPushSuccessNotification": true,
   "merge-conflict.decorators.enabled": false,
