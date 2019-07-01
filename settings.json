@@ -33,11 +33,11 @@
     "comments": false,
     "strings": false
   },
-
   "editor.renderControlCharacters": true,
   // The number of spaces a tab is equal to.
   "editor.tabSize": 2,
-
+  "editor.fontSize": 16,
+ 
   "window.zoomLevel": 0,
   "window.openFoldersInNewWindow": "off",
   "window.restoreWindows": "all",
