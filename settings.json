@@ -108,11 +108,11 @@
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
-  "editor.cursorStyle": "block-outline",
+  "editor.cursorStyle": "line",
   "editor.mouseWheelZoom": false,
 
   "git.showPushSuccessNotification": true,
-  "merge-conflict.decorators.enabled": false,
+  "merge-conflict.decorators.enabled": true,
 
   // Configure glob patterns for excluding files and folders in searches.
   // Inherits all glob patterns from the files.exclude setting.
@@ -125,7 +125,8 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/*.specs.ts": true
+    "**/*.specs.ts": true,
+    "**/build": true
   },
 
   // Enable/disable autoclosing of HTML tags.
@@ -168,5 +169,12 @@
   
   
   // Improved column selection with Multi Cursor Modifier
-  "editor.multiCursorModifier": "ctrlCmd"
+  "editor.multiCursorModifier": "ctrlCmd",
+  
+    // Customizes what kind of terminal to launch.
+  "terminal.explorerKind": "integrated",
+  "editor.renderWhitespace": "all",
+  "workbench.tree.indent": 16,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.editor.highlightModifiedTabs": true,
 }
