@@ -177,4 +177,6 @@
   "workbench.tree.indent": 16,
   "workbench.view.alwaysShowHeaderActions": true,
   "workbench.editor.highlightModifiedTabs": true,
+  
+    "editor.tabCompletion": "on"
 }
