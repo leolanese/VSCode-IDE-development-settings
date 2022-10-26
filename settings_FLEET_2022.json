@@ -10,6 +10,9 @@
     "editor.showStatusBar": true,
     "editor.fontSize": 14,
     "editor.showFileStatus": true,
+    "editor.softWrapEnabled": true,
+    "editor.showDeclarationUsages": true,
+    "editor.selectIdentifierOnWordSelection": true,
     "completion.autoPopupDelay": 2,
     "[HTML]": {
         "editor.softWrapEnabled": true
