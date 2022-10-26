@@ -2,10 +2,15 @@
 `VsCode` & `Fleet` portable settings.json 
 
 
-> to start remember to Edit settings (cmd + P) and serach first for Settings UI, looks for Workbench:
+```js
+// Fleet
+Crtl + Atl + S > Click 'Show Settings.json'
+```
 
-```html
-Workbench › Settings: Use Split JSON 
+```js
+// VS
+Edit settings (cmd + P) and search for Settings UI:
+Workbench › Settings 
 [v] Controls whether to use the split JSON when editing settings as JSON.
 ```
 
