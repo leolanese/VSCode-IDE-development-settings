@@ -13,6 +13,7 @@
     "editor.showStatusBar": true,
     "editor.fontSize": 14,
     "editor.showFileStatus": true,
+    "editor.enableIndenter": true,
     "editor.softWrapEnabled": true,
     "editor.showDeclarationUsages": true,
     "editor.selectIdentifierOnWordSelection": true,
