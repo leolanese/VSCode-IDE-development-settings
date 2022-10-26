@@ -17,6 +17,7 @@
     "editor.showDeclarationUsages": true,
     "editor.selectIdentifierOnWordSelection": true,
     "completion.autoPopupDelay": 2,
+    "excluded": ["/node_modules", "/coverage", "/tmp", "/.idea", "/.history/", "/tmp", "/.sass-cache", "/out-tsc", ".cache/"],
     "git.autoFetch": true,
     "[HTML]": {
         "editor.softWrapEnabled": true
