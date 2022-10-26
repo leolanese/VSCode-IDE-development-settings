@@ -1,5 +1,5 @@
-# vscode-personal-settings
-VsCode settings
+# IDE-personal-development-settings
+`VsCode` & `Fleet` portable settings.json 
 
 
 > to start remember to Edit settings (cmd + P) and serach first for Settings UI, looks for Workbench:
