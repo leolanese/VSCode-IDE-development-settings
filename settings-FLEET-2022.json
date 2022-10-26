@@ -1,0 +1,16 @@
+{
+    "launchTerminalOnOpen": true,
+    "terminal.enableFocusEditorOnEsc": true,
+    "editor.alwaysShowHorizontalScrollbar": true,
+    "fus.sendAllowed": false,
+    "theme": "dark_purple",
+    "editor.showFloatingDebugPanel": false,
+    "editor.showNavBar": true,
+    "editor.showLineNumbers": true,
+    "editor.showStatusBar": true,
+    "completion.autoPopupDelay": 2,
+    "editor.fontSize": 14,
+    "[HTML]": {
+        "editor.softWrapEnabled": true
+    }
+}
