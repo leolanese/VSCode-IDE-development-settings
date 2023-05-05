@@ -1,4 +1,4 @@
-# IDE-personal-development-settings
+# VSCode-IDE-development-settings
 `VsCode` portable settings.json 
 
 ```js
