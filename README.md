@@ -1,11 +1,5 @@
 # IDE-personal-development-settings
-`VsCode` & `Fleet` portable settings.json 
-
-
-```js
-// Fleet
-Crtl + Atl + S > Click 'Show Settings.json'
-```
+`VsCode` portable settings.json 
 
 ```js
 // VS
