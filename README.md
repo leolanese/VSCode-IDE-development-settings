@@ -1,5 +1,6 @@
 # VSCode-IDE-development-settings
-`VsCode` portable settings.json 
+
+`VsCode` and `fleet` portable settings.json 
 
 ### Settings editor
 ```html
