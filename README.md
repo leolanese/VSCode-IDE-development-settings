@@ -2,7 +2,16 @@
 `VsCode` portable settings.json 
 
 ```js
-// VS
+Settings editor
+To modify user settings, you'll use the Settings editor to review and change VS Code settings.
+
+To open the Settings editor, use the following VS Code menu command:
+```
+
+> On Windows/Linux - File > Preferences > Settings
+> On macOS - Code > Preferences > Settings
+
+```
 Edit settings (cmd + P) and search for Settings UI:
 Workbench › Settings 
 [v] Controls whether to use the split JSON when editing settings as JSON.
