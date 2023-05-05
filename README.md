@@ -8,8 +8,11 @@ To modify user settings, you'll use the Settings editor to review and change VS 
 To open the Settings editor, use the following VS Code menu command:
 ```
 
+### Settings
+```html
 > On Windows/Linux - File > Preferences > Settings
 > On macOS - Code > Preferences > Settings
+```
 
 ```
 Edit settings (cmd + P) and search for Settings UI:
