@@ -2,18 +2,18 @@
   "editor.suggest.showWords": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always",
-    "source.fixAll": "always"
+    "source.fixAll.eslint": "always"
   },
   "eslint.validate": [
     "javascript",
     "typescript"
   ],
   "typescript.suggestionActions.enabled": true,
-  "typescript.inlayHints.parameterNames.enable": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enable": false,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": false,
   "typescript.inlayHints.parameterTypes.enabled": true,
   "terminal.explorerKind": "integrated",
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "boundary",
   "workbench.tree.indent": 16,
   "workbench.editor.highlightModifiedTabs": true,
   "editor.tabCompletion": "on",
@@ -30,7 +30,9 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/*.specs.ts": true,
-    "**/build": true
+    "**/build": true,
+    "**/dist/**": true,
+    "**/.vscode/**": true
   },
   // Controls whether the search results will be collapsed or expanded.
   //  - auto: Files with less than 10 results are expanded. Others are collapsed.
@@ -53,7 +55,7 @@
   "editor.cursorBlinking": "phase",
   "editor.cursorStyle": "line",
   "editor.mouseWheelZoom": false,
-  "editor.cursorWidth": 3,
+  "editor.cursorWidth": 2,
   "editor.fontWeight": "400",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
@@ -61,7 +63,7 @@
   "editor.guides.highlightActiveBracketPair": true,
   "git.showPushSuccessNotification": true,
   "merge-conflict.decorators.enabled": true,
-  "workbench.list.horizontalScrolling": true,
+  "workbench.list.horizontalScrolling": false,
   "editor.wordWrapColumn": 120,
   "files.exclude": {
     "**/*.specs": true
@@ -107,7 +109,7 @@
   "workbench.tree.renderIndentGuides": "always",
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.formatOnPaste": true,
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.detectIndentation": false,
@@ -117,8 +119,9 @@
   "files.autoSave": "onFocusChange",
   "workbench.sideBar.location": "left",
   "breadcrumbs.enabled": true,
-  "search.useIgnoreFiles": false,
+  "search.useIgnoreFiles": true,
   "prettier.disableLanguages": [
+    // Remove languages you want Prettier to handle
     "html",
     "scss",
     "javascript",
@@ -141,7 +144,7 @@
   },
   "workbench.colorTheme": "Default Dark+",
   "remote.SSH.connectTimeout": 30,
-  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   // no formater
   // "editor.defaultFormatter": null
   // prettier
@@ -191,11 +194,11 @@
   },
   "editor.quickSuggestions": {
     "other": true,
-    "comments": false,
+    "comments": true,
     "strings": false
   },
   // Controls the delay in milliseconds after which quick suggestions will show up.
-  "editor.quickSuggestionsDelay": 1,
+  "editor.quickSuggestionsDelay": 100,
   // Enable/disable the ability to preview changes before renaming
   "editor.rename.enablePreview": true,
   // Render last line number when the file ends with a newline.
@@ -358,10 +361,10 @@
   // Configures whether sourcemapped file where the original file can't be read will automatically be unmapped. If this is false (default), a prompt is shown.
   "debug.javascript.unmapMissingSources": false,
   // Use the new in-preview JavaScript debugger for Node.js and Chrome.
-  "debug.javascript.usePreview": true,
+  "debug.javascript.usePreview": false,
   // Controls whether to show a warning when the 'useWSL' attribute is used.
   "debug.node.showUseWslIsDeprecatedWarning": true,
   "extensions.ignoreRecommendations": true,
-  "editor.renderControlCharacters": true,
+  "editor.renderControlCharacters": false,
   "window.zoomLevel": 2,
 }
