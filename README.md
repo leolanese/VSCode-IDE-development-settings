@@ -32,5 +32,5 @@ Workbench › Settings
 ##### :radio_button: Portfolio: <a href="https://www.leolanese.com" target="_blank">www.leolanese.com</a>
 ##### :radio_button: DEV.to: <a href="https://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
 ##### :radio_button: Blog: <a href="https://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
-##### :radio_button: Questions / Suggestion / Recommendation: developer@leolanese.com <a http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+##### :radio_button: Questions / Suggestion / Recommendation: developer@leolanese.com <a href=https://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
 </h5>
