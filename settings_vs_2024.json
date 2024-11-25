@@ -32,7 +32,11 @@
       "**/*.specs.ts": true,
       "**/build": true,
       "**/dist/**": true,
-      "**/.vscode/**": true
+      "**/.vscode/**": true,
+      "**/documentation/**": true,
+      "**/.idea/**": true,
+      "**/detective/**": true,
+      "**/.angular/**": true
     },
     // Controls whether the search results will be collapsed or expanded.
     //  - auto: Files with less than 10 results are expanded. Others are collapsed.
