@@ -70,7 +70,17 @@
     "workbench.list.horizontalScrolling": false,
     "editor.wordWrapColumn": 120,
     "files.exclude": {
-      "**/*.specs": true
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.idea/": true,
+        "**/.vscode/": true,
+        "**/.history/*": true,
+        "**/node_modules/": true,
+        "**/dist/": true,
     },
     // The number of spaces a tab is equal to.
     "editor.tabSize": 2,
